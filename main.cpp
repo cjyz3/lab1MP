@@ -355,4 +355,6 @@ int main(){
         out << arr_size[i] << '\t' << std_sort_times[i] << '\t' << std_bubble_times[i] << '\t' << std_selection_times[i] << '\t' << std_heap_times[i] << std::endl;
     }
     out.close(); 
+
+    std::cout << "Its over!";
 }
